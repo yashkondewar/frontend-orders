@@ -1,0 +1,135 @@
+.sidebar {
+  background: #112d31;
+  width: 276.26px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 80.9%;
+}
+
+.sidebar-menu {
+  padding: 0;
+  margin: 10 20px 0;
+  text-align: center;
+}
+
+.sidebar-menu-item {
+  list-style: none;
+  margin-left: 2rem;
+  text-align: left;
+  padding: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sidebar-menu-item :hover {
+  background-color: rgba(137, 189, 187, 0.3);
+}
+
+.sidebar-menu-item a {
+  display: block;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: -30px;
+}
+
+.sidebar-menu-icon {
+  margin-left: 30px;
+}
+.sidebar-menu-item a span {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.sidebar-menu-item small {
+  color: rgba(255, 255, 255, 0.53);
+  font-size: 12px;
+  margin-left: 60px;
+}
+
+.sidebar-menu-item.active a {
+  background-color: #333;
+  color: #fff;
+}
+
+button{
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #132C31;
+  background-color: #89BDBB;
+  height: 43px;
+  border-radius: 10px;
+  margin-left: 1.3rem;
+  display: flex;
+  align-items: center;
+  width: 230px;
+  margin-top: 75px;
+}
+
+.lout {
+  background: #7b0101;
+  color: #ffffff;
+  bottom: 0;
+  position: fixed;
+  width: 286px;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: -30px;
+}
+
+/* 
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    left: unset;
+    right: unset;
+    bottom: 0;
+    top: unset;
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px 0;
+    text-align: center;
+  }
+
+  .sidebar-menu-item {
+    margin: 0;
+    padding: 0;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .sidebar-menu-icon {
+    margin-left: 0;
+  }
+
+  .sidebar-menu-item a span {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .sidebar-menu-item small {
+    margin-left: 0;
+  }
+
+  .lout {
+    width: 100%;
+    position: relative;
+    margin-top: 85px;
+  }
+} */

@@ -1,0 +1,29 @@
+.table_area{
+    margin-left: 290px;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
+.table_head{
+    background: linear-gradient(180deg, #C3F5F4 -2.63%, #F5F5F5 200%);
+}
+
+.column_cell{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column_cell img{
+    margin-right: 0;
+}
+
+.table_body{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.4%;
+    color: #112D31;
+    display:flex,
+}
